@@ -1,0 +1,69 @@
+/* EmployeeList.css */
+
+/* Center align the EmployeeList component */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Center align the title */
+  h1 {
+    text-align: center;
+  }
+  
+  /* Style the table container */
+  .table-container {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto; /* Add horizontal scroll when necessary */
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  /* Style the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Style the table headers */
+  th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Style the table cells */
+  td {
+    padding: 8px;
+  }
+  
+  /* Style the pagination buttons */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+  }
+  
+  /* Style the Add Employee section */
+  .add-employee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .add-employee input {
+    margin-bottom: 10px;
+  }
+  
+  .add-employee button {
+    margin-top: 10px;
+  }
+  
